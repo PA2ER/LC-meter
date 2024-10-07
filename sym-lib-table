@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TQ2SA-5V")(type "KiCad")(uri "${KIPRJMOD}/2024-10-06_14-52-03.kicad_sym")(options "")(descr ""))
+)
