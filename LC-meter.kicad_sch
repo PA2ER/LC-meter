@@ -6488,7 +6488,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 144.78) (xy 82.55 144.78)
+			(xy 149.86 123.19) (xy 151.13 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6808,7 +6808,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 147.32) (xy 81.28 144.78)
+			(xy 149.86 125.73) (xy 149.86 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7672,7 +7672,7 @@
 	)
 	(global_label "L{slash}C SW"
 		(shape output)
-		(at 82.55 142.24 180)
+		(at 151.13 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7682,7 +7682,7 @@
 		)
 		(uuid "044f91de-b77f-41bf-909e-8d46fdaa0778")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.3077 142.24 0)
+			(at 140.8877 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,7 +8641,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 147.32 0)
+		(at 149.86 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8650,7 +8650,7 @@
 		(fields_autoplaced yes)
 		(uuid "01b9567c-5085-40ee-8dcc-e83758cb14a1")
 		(property "Reference" "#PWR013"
-			(at 81.28 153.67 0)
+			(at 149.86 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +8659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 152.4 0)
+			(at 149.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +8667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 147.32 0)
+			(at 149.86 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +8676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 147.32 0)
+			(at 149.86 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8685,7 +8685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 147.32 0)
+			(at 149.86 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10492,7 +10492,7 @@
 	)
 	(symbol
 		(lib_id "NHD-0216K1Z-NSW-BBW-L:NHD-0216K1Z-NSW-BBW-L")
-		(at 57.15 123.19 0)
+		(at 74.93 124.46 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -10501,7 +10501,7 @@
 		(fields_autoplaced yes)
 		(uuid "7828c034-c112-41a7-8322-0ebfb1bc9f44")
 		(property "Reference" "DS1"
-			(at 57.15 97.79 0)
+			(at 74.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10509,7 +10509,7 @@
 			)
 		)
 		(property "Value" "NHD-0216K1Z-NSW-BBW-L"
-			(at 57.15 100.33 0)
+			(at 74.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,7 +10517,7 @@
 			)
 		)
 		(property "Footprint" "NHD-0216K1Z-NSW-BBW-L:NHD_NHD-0216K1Z-NSW-BBW-L"
-			(at 60.706 96.52 0)
+			(at 78.486 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,7 +10527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 123.19 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +10536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 123.19 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,7 +10545,7 @@
 			)
 		)
 		(property "PARTREV" "03/28/17"
-			(at 55.88 101.6 0)
+			(at 73.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10555,7 +10555,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 21.59 118.11 0)
+			(at 39.37 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +10565,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "13.5mm"
-			(at 76.708 121.666 0)
+			(at 94.488 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +10575,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Newhaven Display International"
-			(at 83.82 127.762 0)
+			(at 101.6 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12183,7 +12183,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 87.63 144.78 180)
+		(at 156.21 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12192,7 +12192,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7e13576-6a0b-4dd5-b491-eb56a3851903")
 		(property "Reference" "J9"
-			(at 88.9 142.2399 0)
+			(at 157.48 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12201,7 +12201,7 @@
 			)
 		)
 		(property "Value" "L/C Switch"
-			(at 88.9 144.7799 0)
+			(at 157.48 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12210,7 +12210,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 87.63 144.78 0)
+			(at 156.21 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12219,7 +12219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 144.78 0)
+			(at 156.21 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12228,7 +12228,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 87.63 144.78 0)
+			(at 156.21 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
