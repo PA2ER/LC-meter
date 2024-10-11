@@ -12481,16 +12481,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 106.68 186.69 90)
+		(at 109.22 186.69 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f2e295c8-863e-4acd-a941-2d9164a8f632")
 		(property "Reference" "J4"
-			(at 110.49 184.7849 90)
+			(at 105.41 184.7849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12499,7 +12499,7 @@
 			)
 		)
 		(property "Value" "OscTest"
-			(at 110.49 187.3249 90)
+			(at 105.41 187.3249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12508,7 +12508,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 106.68 186.69 0)
+			(at 109.22 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +12517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 186.69 0)
+			(at 109.22 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,7 +12526,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 106.68 186.69 0)
+			(at 109.22 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
