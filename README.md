@@ -8,7 +8,7 @@ induction and capacity meter with pic controller.
  ![Front side of the PCB](Pictures/LC-meter_pcb_front.png)
  Front side of the PCB.
 ## Schematics
-*[schematic_v1](Pictures/schematic_v1.0.pdf)
+* [schematic_v1](Pictures/schematic_v1.0.pdf)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTg0MDYxMjgyM119
 -->
