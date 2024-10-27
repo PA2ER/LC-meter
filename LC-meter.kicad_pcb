@@ -118,10 +118,9 @@
 	(net 35 "RA4")
 	(net 36 "unconnected-(U1-RB5-Pad11)")
 	(net 37 "RA1")
-	(net 38 "unconnected-(U3-STRB-Pad6)")
-	(net 39 "unconnected-(U3-BAL-Pad5)")
-	(net 40 "unconnected-(J2-Pin_6-Pad6)")
-	(net 41 "Net-(K1-Pad3)")
+	(net 38 "Net-(U3-BAL)")
+	(net 39 "unconnected-(J2-Pin_6-Pad6)")
+	(net 40 "Net-(K1-Pad3)")
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "063afb87-d05c-4817-9901-b3df01607a8b")
@@ -2319,7 +2318,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at -3.05 -0.15 360)
+			(at -3.05 -0.15 0)
 			(layer "F.SilkS")
 			(uuid "7e6f31ab-8161-4f3a-a584-d5d6a0aff3b2")
 			(effects
@@ -2330,7 +2329,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "d917cf4b-28dd-4ed4-8bad-ce925b3de0aa")
 			(effects
@@ -2485,7 +2484,7 @@
 			(uuid "5f8ec274-484d-4702-bec7-975f3cb2aedb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "98fe051b-f7ab-4bf1-b4a6-a6b4b230e364")
 			(effects
@@ -2758,7 +2757,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J3"
-			(at -0.05 -3.012 360)
+			(at -0.05 -3.012 0)
 			(layer "F.SilkS")
 			(uuid "7d31ff6f-43a0-499a-a505-cf628b1b1b3a")
 			(effects
@@ -2769,7 +2768,7 @@
 			)
 		)
 		(property "Value" "1RowDsp"
-			(at -1.8 5.138 360)
+			(at -1.8 5.138 0)
 			(layer "F.SilkS")
 			(uuid "b07618d8-c270-4609-811b-ecd9aa129d23")
 			(effects
@@ -5581,7 +5580,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 41 "Net-(K1-Pad3)")
+			(net 40 "Net-(K1-Pad3)")
 			(pintype "passive")
 			(uuid "18fa70d6-af37-4830-8a47-3e6a5df184ee")
 		)
@@ -7063,7 +7062,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 41 "Net-(K1-Pad3)")
+			(net 40 "Net-(K1-Pad3)")
 			(pintype "passive")
 			(uuid "bc40abf2-17cb-4b3f-917e-e3dc9949c095")
 		)
@@ -7106,7 +7105,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
-			(at 3.3625 0 360)
+			(at 3.3625 0 0)
 			(layer "F.SilkS")
 			(uuid "16118b75-d4ab-414d-9423-a3f93175ea8c")
 			(effects
@@ -7117,7 +7116,7 @@
 			)
 		)
 		(property "Value" "1000pF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "33e16bc3-faf4-415d-9cf8-8dd022161804")
 			(effects
@@ -7285,7 +7284,7 @@
 			(uuid "b04b1bca-7d31-4664-a5ce-1307c8373168")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9bb3b4db-b45f-4049-86a7-284c56159515")
 			(effects
@@ -7934,7 +7933,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 3.3625 -0.1 360)
+			(at 3.3625 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "71b5ad61-d3ea-491b-9c7e-990d833cd6c8")
 			(effects
@@ -7945,7 +7944,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 4.3625 0.15 360)
+			(at 4.3625 0.15 0)
 			(layer "F.Fab")
 			(uuid "c7d0ee8e-7156-4f1e-9121-54aa38d5eabf")
 			(effects
@@ -8113,7 +8112,7 @@
 			(uuid "a01db243-68f3-4b34-aacc-d278b67ce5aa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "da46c31e-c079-491d-af5a-b35347b033b1")
 			(effects
@@ -9142,9 +9141,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 39 "unconnected-(U3-BAL-Pad5)")
+			(net 38 "Net-(U3-BAL)")
 			(pinfunction "BAL")
-			(pintype "input+no_connect")
+			(pintype "input")
 			(uuid "5d9e9da1-a97d-4084-affa-10b19616a949")
 		)
 		(pad "6" smd roundrect
@@ -9152,9 +9151,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 38 "unconnected-(U3-STRB-Pad6)")
+			(net 38 "Net-(U3-BAL)")
 			(pinfunction "STRB")
-			(pintype "input+no_connect")
+			(pintype "input")
 			(uuid "00241524-4148-482d-8c7f-fb8347e84ac2")
 		)
 		(pad "7" smd roundrect
@@ -9421,7 +9420,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J4"
-			(at -0.048 -3.012 360)
+			(at -0.048 -3.012 0)
 			(layer "F.SilkS")
 			(uuid "882cf8cb-dfdf-4e5b-8bb3-f21c7e2f1ee8")
 			(effects
@@ -9432,7 +9431,7 @@
 			)
 		)
 		(property "Value" "OscTest"
-			(at 1.052 5.188 360)
+			(at 1.052 5.188 0)
 			(layer "F.SilkS")
 			(uuid "bc445ed8-08a9-436f-8377-17226e6c9997")
 			(effects
@@ -10450,7 +10449,7 @@
 			)
 		)
 		(property "Value" "ICSP"
-			(at 2.55 -6.35 360)
+			(at 2.55 -6.35 0)
 			(layer "B.SilkS")
 			(uuid "2735f785-0d56-40dd-9232-0d06569e0e6a")
 			(effects
@@ -10659,7 +10658,7 @@
 			(uuid "0b828317-bf0f-4e3a-b1a3-41ed82f019f6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -6.35 360)
+			(at 0 -6.35 0)
 			(layer "B.Fab")
 			(uuid "b6d8dd6c-bf33-46c8-9040-1f846ec68a55")
 			(effects
@@ -10731,7 +10730,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 40 "unconnected-(J2-Pin_6-Pad6)")
+			(net 39 "unconnected-(J2-Pin_6-Pad6)")
 			(pinfunction "Pin_6")
 			(pintype "passive+no_connect")
 			(uuid "a19ba1dd-9b12-4759-8e0a-479b69b0926a")
@@ -11681,6 +11680,18 @@
 			(font
 				(size 0.75 0.75)
 				(thickness 0.09375)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "J9-2 to ground = Induction"
+		(at 169.05 72.45 0)
+		(layer "B.SilkS")
+		(uuid "7b75fbb5-8661-4267-96d5-90bc60b126a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom mirror)
 		)
@@ -13451,11 +13462,19 @@
 		(uuid "dcd9f2e5-4ff0-46e5-9758-89d4aafc2a56")
 	)
 	(segment
+		(start 144.03 69.7)
+		(end 145.3 69.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "6e3d803b-32cc-4866-831a-2e59759c96b9")
+	)
+	(segment
 		(start 128.25 80.97)
 		(end 128.18 80.9)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 41)
+		(net 40)
 		(uuid "0420071c-5791-4f34-82ab-bc7e3ee89a6f")
 	)
 	(segment
@@ -13463,7 +13482,7 @@
 		(end 128.25 80.97)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 41)
+		(net 40)
 		(uuid "bfb3a114-2f3a-4762-b1f1-fbe1707c60c5")
 	)
 	(zone

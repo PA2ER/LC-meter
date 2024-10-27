@@ -5933,10 +5933,6 @@
 		(uuid "652b8742-0003-4a49-9735-c58afd49065b")
 	)
 	(no_connect
-		(at 139.7 50.8)
-		(uuid "7427a383-cef8-4adb-93fa-59de9b02796c")
-	)
-	(no_connect
 		(at 246.38 67.31)
 		(uuid "74f619cd-b42e-4280-8d48-edd60b2ef8dc")
 	)
@@ -5951,10 +5947,6 @@
 	(no_connect
 		(at 48.26 48.26)
 		(uuid "e11eb02e-7457-4f9a-97f9-1e68a001240b")
-	)
-	(no_connect
-		(at 137.16 50.8)
-		(uuid "e74875d0-f264-4251-8a3f-da79df176a6f")
 	)
 	(wire
 		(pts
@@ -6455,6 +6447,16 @@
 			(type default)
 		)
 		(uuid "53cebcab-7fda-41b3-ac48-922aee9cdcec")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55cffc9d-db43-41e6-9a26-139f395f520b")
 	)
 	(wire
 		(pts
@@ -7625,6 +7627,25 @@
 			(type default)
 		)
 		(uuid "ff4d6b46-0b0e-4017-b441-1e03de4dff9a")
+	)
+	(text_box "RA0 ->\nRA1 -> 0 = \"energise relay\"\nRA2 -> Display \"E\"\nRA3 -> Display \"RS\"\nRA4 <- Counter in\nRB0 -> Display \"DB4\"\nRB1 -> Display \"DB5\"\nRB2 -> Display \"DB6\"\nRB3 -> Display \"DB7\"\nRB4 <- 0 = \"fix bad display\"\nRB5 <- Nc\nRB6 <- 0 = \"Setup\"\nRB7 <- 0 = \"Inductor\""
+		(exclude_from_sim no)
+		(at 195.58 96.52 0)
+		(size 78.74 31.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "122d34d6-a794-47d7-803a-40965d1ebbce")
 	)
 	(global_label "RB4"
 		(shape output)
